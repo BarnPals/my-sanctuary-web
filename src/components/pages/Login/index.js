@@ -110,7 +110,7 @@ class Login extends Component {
           <title>Sign In</title>
           <meta
             name="description"
-            content="For entrepreneurs, thinkers, and product managers, Barn Pals's product management software helps you achieve your goals."
+            content="Manage everything you need to operate as a farm sanctuary with Barn Pals."
           />
         </Helmet>
 
@@ -160,7 +160,4 @@ const mapDispatchToProps = (dispatch) => ({
   loginWithProvider: (providerName) => dispatch(loginWithProviderAction(providerName)),
 });
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(Login);
+export default connect(mapStateToProps, mapDispatchToProps)(Login);

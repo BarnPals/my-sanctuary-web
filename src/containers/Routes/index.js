@@ -85,7 +85,4 @@ const mapDispatchToProps = (dispatch) => ({
   appInit: (options) => dispatch(appInitAction(options)),
 });
 
-export default connect(
-  null,
-  mapDispatchToProps,
-)(Routes);
+export default connect(null, mapDispatchToProps)(Routes);

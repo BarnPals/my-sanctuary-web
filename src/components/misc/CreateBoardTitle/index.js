@@ -116,7 +116,4 @@ const mapDispatchToProps = (dispatch) => ({
   updateExampleBoardName: (name) => dispatch(updateExampleBoardNameAction(name)),
 });
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(CreateBoardTitle);
+export default connect(mapStateToProps, mapDispatchToProps)(CreateBoardTitle);

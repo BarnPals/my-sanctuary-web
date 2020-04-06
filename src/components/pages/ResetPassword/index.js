@@ -84,7 +84,7 @@ class ResetPassword extends Component {
           <title>Reset Password</title>
           <meta
             name="description"
-            content="For entrepreneurs, thinkers, and product managers, Barn Pals's product management software helps you achieve your goals."
+            content="Manage everything you need to operate as a farm sanctuary with Barn Pals."
           />
         </Helmet>
 
@@ -121,7 +121,4 @@ const mapDispatchToProps = (dispatch) => ({
   sendPasswordResetEmail: (customEmail) => dispatch(sendPasswordResetEmailAction(customEmail)),
 });
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(ResetPassword);
+export default connect(mapStateToProps, mapDispatchToProps)(ResetPassword);

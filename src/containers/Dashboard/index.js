@@ -20,10 +20,7 @@ const Dashboard = ({ selectedItem }) => {
       {/* SEO */}
       <Helmet defaultTitle="Barn Pals" titleTemplate="Barn Pals | %s">
         <title>Dashboard</title>
-        <meta
-          name="description"
-          content="For entrepreneurs, thinkers, and product managers, Barn Pals's product management software helps you achieve your goals."
-        />
+        <meta name="description" content="Manage everything you need to operate as a farm sanctuary with Barn Pals." />
       </Helmet>
 
       {/* Side Nav Menu */}
@@ -51,7 +48,4 @@ const mapStateToProps = (state) => ({
   selectedItem: state.dashboardReducer.selectedItem,
 });
 
-export default connect(
-  mapStateToProps,
-  null,
-)(Dashboard);
+export default connect(mapStateToProps, null)(Dashboard);

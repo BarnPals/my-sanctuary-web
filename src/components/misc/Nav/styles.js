@@ -3,7 +3,6 @@ import styled from 'styled-components';
 // Externals
 import Cog from 'assets/react-svgs/Cog';
 import Grid from 'assets/react-svgs/Grid';
-import Robot from 'assets/react-svgs/Robot';
 import theme from 'assets/theme';
 
 export const Wrapper = styled.div`
@@ -55,7 +54,7 @@ export const BoardsIcon = styled(Grid)`
   }
 `;
 
-export const RecommendationsIcon = styled(Robot)`
+export const RecommendationsIcon = styled.div`
   cursor: pointer;
   height: 25px;
   width: 30px;

@@ -1,9 +1,10 @@
-// Dependencies
+// Node modules.
 const fetch = require('isomorphic-fetch');
 const ora = require('ora');
 const readline = require('readline');
 const { exec } = require('child_process');
-// Externals
+// Relative imports.
+const ENVS = require('./ENVS');
 const deriveEnvVars = require('./deriveEnvVars');
 const { name } = require('../package.json');
 
@@ -11,21 +12,18 @@ const { name } = require('../package.json');
 const greenify = (input) => `\x1b[1;92m${input}\x1b[0m`;
 const reddify = (input) => `\x1b[91m${input}\x1b[0m`;
 
-// Create the slack URL.
-const SLACK_URL = '';
-
 // Construct valid environments.
 const ENVIRONMENTS = {
-  dev: 'my-sanctuary-barnpals-dev',
-  staging: 'my-sanctuary-barnpals-staging',
-  production: 'my-sanctuary-barnpals-prod',
+  dev: 'barnpals-my-sanctuary-dev',
+  staging: 'barnpals-my-sanctuary-staging',
+  production: 'barnpals-my-sanctuary-prod',
 };
 
 // Construct the download links for each environment.
 const DOWNLOAD_LINKS_LOOKUP = {
-  dev: 'https://my-sanctuary-barnpals-dev.firebaseapp.com',
-  staging: 'https://my-sanctuary-barnpals-staging.firebaseapp.com',
-  production: 'https://my-sanctuary-barnpals-prod.firebaseapp.com\nhttps://mysanctuary.barnpals.org',
+  dev: 'https://barnpals-my-sanctuary-dev.firebaseapp.com',
+  staging: 'https://barnpals-my-sanctuary-staging.firebaseapp.com',
+  production: 'https://barnpals-my-sanctuary-prod.firebaseapp.com\nhttps://mysanctuary.barnpals.org',
 };
 
 // Construct valid version bump types.
@@ -174,7 +172,7 @@ const notify = () => {
   console.log(greenify(text));
 
   // Notify slack via the webhook.
-  fetch(SLACK_URL, {
+  fetch(ENVS[env].REACT_APP_SLACK_URL, {
     method: 'POST',
     body: JSON.stringify({ text }),
   })

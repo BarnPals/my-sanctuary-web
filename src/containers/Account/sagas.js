@@ -4,7 +4,6 @@ import { all, call, put, takeLatest } from 'redux-saga/effects';
 import get from 'lodash/get';
 // Externals
 import { SUCCESS } from 'containers/UniversalNotifications/MESSAGE_TYPES';
-import { createAccountSubscriptionAction } from 'containers/AccountSubscriptions/actions';
 import { createOrganizationAction, getOrganizationsAction } from 'containers/Organizations/actions';
 import { getBoardsAction } from 'containers/Boards/actions';
 import { getRecommendationsAction } from 'containers/Recommendations/actions';

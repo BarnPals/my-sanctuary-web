@@ -20,8 +20,6 @@ import {
   Wrapper,
 } from './styles';
 
-const SLACK_URL = 'https://hooks.slack.com/services/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';
-
 class Feedback extends Component {
   static propTypes = {
     // From mapStateToProps.
@@ -74,7 +72,7 @@ class Feedback extends Component {
     this.setState({ sending: true });
 
     // Notify slack via the webhook.
-    fetch(SLACK_URL, {
+    fetch(process.env.REACT_APP_SLACK_URL, {
       method: 'POST',
       body: JSON.stringify({
         text: formattedText,
@@ -160,7 +158,4 @@ const mapDispatchToProps = (dispatch) => ({
   showUniversalNotification: (options) => dispatch(showUniversalNotificationAction(options)),
 });
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(Feedback);
+export default connect(mapStateToProps, mapDispatchToProps)(Feedback);
