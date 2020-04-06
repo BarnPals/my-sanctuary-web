@@ -1,0 +1,10 @@
+// Dependencies
+import styled from 'styled-components';
+
+export default styled.div`
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  text-align: center;
+`;

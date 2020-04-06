@@ -1,0 +1,14 @@
+export const CREATE_NOTE = 'containers/Notes/CREATE_NOTE';
+export const CREATE_NOTE_FAILURE = 'containers/Notes/CREATE_NOTE_FAILURE';
+export const CREATE_NOTE_SUCCESS = 'containers/Notes/CREATE_NOTE_SUCCESS';
+export const DELETE_NOTE = 'containers/Notes/DELETE_NOTE';
+export const DELETE_NOTE_FAILURE = 'containers/Notes/DELETE_NOTE_FAILURE';
+export const DELETE_NOTE_SUCCESS = 'containers/Notes/DELETE_NOTE_SUCCESS';
+export const GET_NOTES = 'containers/Notes/GET_NOTES';
+export const GET_NOTES_FAILURE = 'containers/Notes/GET_NOTES_FAILURE';
+export const GET_NOTES_SUCCESS = 'containers/Notes/GET_NOTES_SUCCESS';
+export const RESET = 'containers/Notes/RESET';
+export const UPDATE_NOTE = 'containers/Notes/UPDATE_NOTE';
+export const UPDATE_NOTE_FAILURE = 'containers/Notes/UPDATE_NOTE_FAILURE';
+export const UPDATE_NOTE_SUCCESS = 'containers/Notes/UPDATE_NOTE_SUCCESS';
+export const UPDATE_NOTE_IN_LOOKUP = 'containers/Notes/UPDATE_NOTE_IN_LOOKUP';

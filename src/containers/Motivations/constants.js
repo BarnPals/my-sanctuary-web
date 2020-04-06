@@ -1,0 +1,13 @@
+export const CREATE_MOTIVATION = 'containers/Motivations/CREATE_MOTIVATION';
+export const CREATE_MOTIVATION_FAILURE = 'containers/Motivations/CREATE_MOTIVATION_FAILURE';
+export const CREATE_MOTIVATION_IN_LOOKUP = 'containers/Motivations/CREATE_MOTIVATION_IN_LOOKUP';
+export const CREATE_MOTIVATION_SUCCESS = 'containers/Motivations/CREATE_MOTIVATION_SUCCESS';
+export const GET_MOTIVATIONS = 'containers/Motivations/GET_MOTIVATIONS';
+export const GET_MOTIVATIONS_FAILURE = 'containers/Motivations/GET_MOTIVATIONS_FAILURE';
+export const GET_MOTIVATIONS_SUCCESS = 'containers/Motivations/GET_MOTIVATIONS_SUCCESS';
+export const RESET = 'containers/Motivations/RESET';
+export const SELECT_MOTIVATION = 'containers/Motivations/SELECT_MOTIVATION';
+export const UPDATE_MOTIVATION = 'containers/Motivations/UPDATE_MOTIVATION';
+export const UPDATE_MOTIVATION_FAILURE = 'containers/Motivations/UPDATE_MOTIVATION_FAILURE';
+export const UPDATE_MOTIVATION_IN_LOOKUP = 'containers/Motivations/UPDATE_MOTIVATION_IN_LOOKUP';
+export const UPDATE_MOTIVATION_SUCCESS = 'containers/Motivations/UPDATE_MOTIVATION_SUCCESS';

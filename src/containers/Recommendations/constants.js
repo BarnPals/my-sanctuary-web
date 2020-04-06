@@ -1,0 +1,14 @@
+export const CREATE_RECOMMENDATION = 'containers/Recommendations/CREATE_RECOMMENDATION';
+export const CREATE_RECOMMENDATION_FAILURE = 'containers/Recommendations/CREATE_RECOMMENDATION_FAILURE';
+export const CREATE_RECOMMENDATION_SUCCESS = 'containers/Recommendations/CREATE_RECOMMENDATION_SUCCESS';
+export const DELETE_RECOMMENDATION = 'containers/Recommendations/DELETE_RECOMMENDATION';
+export const DELETE_RECOMMENDATION_FAILURE = 'containers/Recommendations/DELETE_RECOMMENDATION_FAILURE';
+export const DELETE_RECOMMENDATION_SUCCESS = 'containers/Recommendations/DELETE_RECOMMENDATION_SUCCESS';
+export const GET_RECOMMENDATIONS = 'containers/Recommendations/GET_RECOMMENDATIONS';
+export const GET_RECOMMENDATIONS_FAILURE = 'containers/Recommendations/GET_RECOMMENDATIONS_FAILURE';
+export const GET_RECOMMENDATIONS_SUCCESS = 'containers/Recommendations/GET_RECOMMENDATIONS_SUCCESS';
+export const RESET = 'containers/Recommendations/RESET';
+export const UPDATE_RECOMMENDATION = 'containers/Recommendations/UPDATE_RECOMMENDATION';
+export const UPDATE_RECOMMENDATION_FAILURE = 'containers/Recommendations/UPDATE_RECOMMENDATION_FAILURE';
+export const UPDATE_RECOMMENDATION_SUCCESS = 'containers/Recommendations/UPDATE_RECOMMENDATION_SUCCESS';
+export const UPDATE_RECOMMENDATION_IN_LOOKUP = 'containers/Recommendations/UPDATE_RECOMMENDATION_IN_LOOKUP';

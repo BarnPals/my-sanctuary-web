@@ -1,0 +1,15 @@
+export const CREATE_BOARD = 'containers/Boards/CREATE_BOARD';
+export const CREATE_BOARD_FAILURE = 'containers/Boards/CREATE_BOARD_FAILURE';
+export const CREATE_BOARD_SUCCESS = 'containers/Boards/CREATE_BOARD_SUCCESS';
+export const DELETE_BOARD = 'containers/Boards/DELETE_BOARD';
+export const DELETE_BOARD_FAILURE = 'containers/Boards/DELETE_BOARD_FAILURE';
+export const DELETE_BOARD_SUCCESS = 'containers/Boards/DELETE_BOARD_SUCCESS';
+export const GET_BOARDS = 'containers/Boards/GET_BOARDS';
+export const GET_BOARDS_FAILURE = 'containers/Boards/GET_BOARDS_FAILURE';
+export const GET_BOARDS_SUCCESS = 'containers/Boards/GET_BOARDS_SUCCESS';
+export const SELECT_BOARD = 'containers/Boards/SELECT_BOARD';
+export const UPDATE_BOARD = 'containers/Boards/UPDATE_BOARD';
+export const UPDATE_BOARD_FAILURE = 'containers/Boards/UPDATE_BOARD_FAILURE';
+export const UPDATE_BOARD_IN_LOOKUP = 'containers/Boards/UPDATE_BOARD_IN_LOOKUP';
+export const UPDATE_BOARD_SUCCESS = 'containers/Boards/UPDATE_BOARD_SUCCESS';
+export const UPDATE_BOARD_IMAGE_URL = 'containers/Boards/UPDATE_BOARD_IMAGE_URL';

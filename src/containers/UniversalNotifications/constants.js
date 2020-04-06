@@ -1,0 +1,2 @@
+export const DISMISS_UNIVERSAL_NOTIFICATION = 'containers/UniversalNotifications/DISMISS_UNIVERSAL_NOTIFICATION';
+export const SHOW_UNIVERSAL_NOTIFICATION = 'containers/UniversalNotifications/SHOW_UNIVERSAL_NOTIFICATION';

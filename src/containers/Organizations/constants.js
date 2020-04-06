@@ -1,0 +1,9 @@
+export const CREATE_ORGANIZATION = 'containers/Organizations/CREATE_ORGANIZATION';
+export const CREATE_ORGANIZATION_FAILURE = 'containers/Organizations/CREATE_ORGANIZATION_FAILURE';
+export const CREATE_ORGANIZATION_SUCCESS = 'containers/Organizations/CREATE_ORGANIZATION_SUCCESS';
+export const GET_ORGANIZATIONS = 'containers/Organizations/GET_ORGANIZATIONS';
+export const GET_ORGANIZATIONS_FAILURE = 'containers/Organizations/GET_ORGANIZATIONS_FAILURE';
+export const GET_ORGANIZATIONS_SUCCESS = 'containers/Organizations/GET_ORGANIZATIONS_SUCCESS';
+export const UPDATE_ORGANIZATION = 'containers/Organizations/UPDATE_ORGANIZATION';
+export const UPDATE_ORGANIZATION_FAILURE = 'containers/Organizations/UPDATE_ORGANIZATION_FAILURE';
+export const UPDATE_ORGANIZATION_SUCCESS = 'containers/Organizations/UPDATE_ORGANIZATION_SUCCESS';
